@@ -3,7 +3,7 @@
 import sys
 import optparse
 import os
-sys.path.append("/home/ubuntu/reasoner/decreasoner")
+sys.path.append(os.path.abspath("./"))
 import decreasoner
 
 def usage() :
